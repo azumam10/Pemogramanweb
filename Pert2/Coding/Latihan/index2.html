@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Azkiya Zahrul Umam</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .navbar-custom {
+      background-color: #6f42c1; /* Warna ungu */
+    }
+    .profile-img {
+      border: 3px solid #6f42c1;
+    }
+    .footer {
+      background-color: #f8f9fa;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fas fa-user-circle me-2"></i>Azkiya Zahrul Umam</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Profile -->
+  <div class="container mt-5">
+    <div class="card shadow mb-4 text-center">
+      <div class="card-body">
+        <img src="https://via.placeholder.com/150" class="rounded-square img-fluid profile-img mb-3" alt="Foto Azkiya">
+        <h3 class="fw-bold">Azkiya Zahrul Umam</h3>
+        <p class="text-muted mb-1">Fakultas Ilmu Komputer</p>
+        <p class="text-muted mb-3">Teknik Informatika - Universitas Esa Unggul</p>
+        <div>
+          <span class="badge bg-primary me-2">Tangerang</span>
+          <span class="badge bg-secondary">Mahasiswa</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="card shadow-sm mb-4">
+      <div class="card-body">
+        <h4 class="text-center text-primary mb-4">About Me</h4>
+        <p class="text-center">Saya Azkiya Zahrul Umam, mahasiswa aktif di Universitas Esa Unggul, Fakultas Ilmu Komputer, Program Studi Teknik Informatika.</p>
+        <p class="text-center">Saya memiliki minat dalam pengembangan web dan ingin terus belajar teknologi terbaru.</p>
+      </div>
+    </div>
+
+    <!-- Social Media -->
+    <div class="card shadow-sm mb-4 text-center">
+      <div class="card-body">
+        <a href="https://github.com/username-anda" target="_blank" class="btn btn-dark">
+          <i class="fab fa-github me-1"></i>My GitHub
+        </a>
+      </div>
+      
+      <div class="card-body">
+        <a href="https://www.instagram.com/username-anda" target="_blank" class="btn btn-dark" style="background-color: #e4405f;">
+          <i class="fab fa-instagram me-1"></i>My Instagram
+        </a>
+      </div>
+      
+      <div class="card-body">
+        <a href="https://linkedin.com/in/username-anda" target="_blank" class="btn btn-dark" style="background-color: #0a66c2;">
+          <i class="fab fa-linkedin me-1"></i>My LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <!-- Skill -->
+    <div class="card shadow-sm mb-4">
+      <div class="card-body">
+        <h5 class="text-center text-primary mb-4">My Skills</h5>
+        <div class="mb-3">
+          <p class="mb-1">HTML</p>
+          <div class="progress" style="height: 8px;">
+            <div class="progress-bar" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <p class="mb-1">CSS</p>
+          <div class="progress" style="height: 8px;">
+            <div class="progress-bar" style="width: 70%"></div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <p class="mb-1">JavaScript</p>
+          <div class="progress" style="height: 8px;">
+            <div class="progress-bar" style="width: 50%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center mt-5">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 Azkiya Zahrul Umam. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

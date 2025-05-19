@@ -14,7 +14,7 @@ class FooterSeeder extends Seeder
     public function run(): void
     {
         Footer::create([
-            'footer' => 'maju tak gentar',
+            'footer' => 'mereka yang berani hari ini pernah ketakutan kemarin',
         ]);
     }
 }

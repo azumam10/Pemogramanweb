@@ -16,7 +16,7 @@ class PageConfigSeeder extends Seeder
         //
         PageConfig::create([
             'title' => 'Umam',
-            'detail' => 'aing aing sia sia',
+            'detail' => 'cinta damai bukan berarti tidak pandai berperang',
             'image' => ''
         ]);
     }

@@ -26,6 +26,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             FooterSeeder::class,
             PageConfigSeeder::class,
+            LogoSeeder::class,
         ]);
     }
 }

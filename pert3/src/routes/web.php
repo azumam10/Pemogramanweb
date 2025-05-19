@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Livewire\Livewire;
+use App\Livewire\About;
+use App\Livewire\Profile;
 use App\Livewire\ShowHomePage;
 
 /* NOTE: Do Not Remove
@@ -17,8 +19,10 @@ Livewire::setScriptRoute(function ($handle) {
 /*
 / END
 */
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/' , ShowHomePage::class)->name('home');
+Route::get('/', ShowHomePage::class)->name('home');
+Route::get('/profile', Profile::class)->name('profile');
+Route::get('/about', About::class)->name('about');
